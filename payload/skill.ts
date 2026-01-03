@@ -4,175 +4,80 @@ const programmingLanguages: ISkill.Skill = {
   category: 'Programming Languages',
   items: [
     {
-      title: 'C',
-      level: 3,
+      title: 'Kotlin',
     },
     {
-      title: 'Shell Scripting',
-      level: 3,
+      title: 'Java',
     },
     {
-      title: 'Python',
-      level: 3,
-    },
-    {
-      title: 'Perl',
-      level: 2,
-    },
-    {
-      title: 'Golang',
-      level: 2,
-    },
-    {
-      title: 'Rust',
-      level: 1,
+      title: 'Javascript',
     },
   ],
 };
 
-const kernelDevelopment: ISkill.Skill = {
-  category: 'Kernel Development',
+const frameworks: ISkill.Skill = {
+  category: 'Frameworks & Libraries',
   items: [
     {
-      title: 'Kernel Programming',
-      level: 3,
+      title: 'Spring Boot',
     },
     {
-      title: 'GNU Debugger',
-      level: 3,
+      title: 'JPA',
     },
     {
-      title: 'Memory Management',
-      level: 2,
+      title: 'coroutine',
     },
     {
-      title: 'System Call Interface',
-      level: 2,
+      title: 'GraphQL',
     },
   ],
 };
 
-const virtualization: ISkill.Skill = {
-  category: 'Virtualization',
+const infrastructure: ISkill.Skill = {
+  category: 'Infrastructure & Databases',
   items: [
     {
-      title: 'Docker',
-      level: 3,
+      title: 'Oracle',
     },
     {
-      title: 'KVM',
-      level: 3,
+      title: 'Mysql',
     },
     {
-      title: 'Xen',
-      level: 2,
+      title: 'MongoDB',
     },
     {
-      title: 'VirtualBox',
-      level: 2,
+      title: 'InfluxDB',
     },
     {
-      title: 'VMware ESXi',
-      level: 1,
+      title: 'Kubernetes',
+    },
+    {
+      title: 'Redis',
     },
   ],
 };
 
-const automation: ISkill.Skill = {
-  category: 'Automation',
+const tools: ISkill.Skill = {
+  category: 'Skills',
   items: [
-    {
-      title: 'Ansible',
-      level: 3,
-    },
-    {
-      title: 'Puppet',
-      level: 3,
-    },
-    {
-      title: 'Chef',
-      level: 2,
-    },
     {
       title: 'Jenkins',
-      level: 2,
     },
     {
-      title: 'CI/CD Pipelines',
-      level: 1,
+      title: 'Datadog',
     },
     {
-      title: 'Infrastructure as Code',
-      level: 1,
-    },
-  ],
-};
-
-const networkSecurity: ISkill.Skill = {
-  category: 'Network Security',
-  items: [
-    {
-      title: 'iptables',
-      level: 3,
+      title: 'OpenShift',
     },
     {
-      title: 'OpenSSH',
-      level: 3,
-    },
-    {
-      title: 'OpenSSL',
-      level: 2,
-    },
-    {
-      title: 'NACLs',
-      level: 2,
-    },
-    {
-      title: 'VPN Technologies',
-      level: 2,
-    },
-    {
-      title: 'Intrusion Detection',
-      level: 1,
-    },
-  ],
-};
-
-const misc: ISkill.Skill = {
-  category: 'Misc',
-  items: [
-    {
-      title: 'Coffee Brewing',
-    },
-    {
-      title: "Rubik's Cube Solving",
-    },
-    {
-      title: 'Table Tennis',
-    },
-    {
-      title: 'Guitar Playing',
-    },
-    {
-      title: 'Joke Telling',
-    },
-    {
-      title: 'Duct Tape Crafting',
+      title: 'Grafana',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    programmingLanguages,
-    kernelDevelopment,
-    virtualization,
-    automation,
-    networkSecurity,
-    misc,
-  ],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  skills: [programmingLanguages, frameworks, infrastructure, tools],
 };
 
 export default skill;

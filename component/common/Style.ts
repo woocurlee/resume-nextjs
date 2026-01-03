@@ -13,7 +13,7 @@ type TStyleKey =
 
 export const Style: Record<TStyleKey, CSSProperties> = {
   blue: {
-    color: '#3c78d8',
+    color: '#C980E5',
   },
 
   gray: {
@@ -26,6 +26,7 @@ export const Style: Record<TStyleKey, CSSProperties> = {
     wordWrap: 'break-word',
     wordBreak: 'keep-all',
     lineHeight: 1.8,
+    marginBottom: '10px',
   },
 
   sign: {
@@ -46,7 +47,7 @@ export const Style: Record<TStyleKey, CSSProperties> = {
   },
 
   footer: {
-    // paddingTop: '10px',
+    fontSize: '1.5em',
   },
 
   skillKeywordBadge: {
