@@ -11,7 +11,7 @@ const introduce: IIntroduce.Payload = {
     '또한, 문서화 및 BFF 도입 등을 통해 프론트엔드 개발자와 적극적으로 소통하며 협업하며 사용자 중심의 결과물을 만들어 내는 데 집중하고 있습니다.',
   ],
   sign: 'woocurlee',
-  latestUpdated: '2025-12-14',
+  latestUpdated: '2026-02-04',
 };
 
 export default introduce;
