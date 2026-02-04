@@ -215,6 +215,32 @@ const project: IProject.Payload = {
         },
       ],
     },
+    {
+      title: '차세대 UCube 프로젝트',
+      startedAt: '2021-07',
+      endedAt: '2022-11',
+      where: 'LG CNS',
+      descriptions: [
+        {
+          content: 'LG U+의 전산 시스템 Ucube의 MSA 전환 프로젝트',
+        },
+        {
+          content: 'WebSquare 기반 가입 화면 및 데이터 유효성 검증 API 구현',
+          descriptions: [
+            {
+              content:
+                '조회 쿼리 최적화 및 코드 성능 개선을 통해 유효성 검증 처리 시간 30% 이상 단축',
+            },
+          ],
+        },
+        {
+          content: 'Kafka를 통한 가입 정보를 타 서비스로 비동기 전송',
+        },
+        {
+          content: 'Spring Batch를 통한 이메일/전문 전송 개발',
+        },
+      ],
+    },
   ],
 };
 
