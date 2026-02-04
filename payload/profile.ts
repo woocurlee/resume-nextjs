@@ -28,7 +28,7 @@ const profile: IProfile.Payload = {
       icon: faGithub,
     },
     {
-      link: 'https://medium.com/@woocurlee',
+      link: 'https://sorious77.tistory.com',
       icon: faMedium,
     },
   ],
