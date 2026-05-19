@@ -55,6 +55,12 @@ const project: IProject.Payload = {
         },
         {
           content: '신규 에디터 서비스에서 사용할 API 서버 개발',
+          descriptions: [
+            {
+              content: '지마켓/옥션 멀티 테넌시 기반 API 아키텍쳐 도입',
+              weight: 'MEDIUM',
+            },
+          ],
         },
         {
           content: '기존 에디터 분석 및 개선점 도출',
@@ -82,6 +88,9 @@ const project: IProject.Payload = {
             {
               content: '카드 안내 페이지',
               href: 'https://www.gmarket.co.kr/n/showroom/samsungcard',
+            },
+            {
+              content: '이후 전사 행사시에도 기획전을 대체한 행사 페이지로 운영',
             },
           ],
         },
@@ -181,6 +190,47 @@ const project: IProject.Payload = {
         {
           content: '행사 페이지 개발 및 QA 소요 기간 70% 이상 감소',
           weight: 'MEDIUM',
+        },
+      ],
+    },
+    {
+      title: '동시 행사 지원을 위한 상품별 뱃지 노출 API 개발',
+      startedAt: '2026-03',
+      where: '지마켓(Gmarket)',
+      descriptions: [
+        {
+          content:
+            '단일 행사 및 단일 상품 뱃지만 지원하던 기존 구조를 확장하여, 동시 행사 진행 시 상품별로 서로 다른 뱃지를 노출할 수 있는 API 설계 및 구현',
+        },
+        {
+          content:
+            'AIDC에서 설정한 행사 정보를 Database CDC 및 Message Queue 기반으로 수신하여 행사 정보 변경 사항을 즉시 반영하는 구조 구현',
+        },
+        {
+          content:
+            '상품별 행사 참여 정보와 뱃지 노출 정책을 기반으로 프론트엔드에 최종 노출 대상 뱃지 정보를 제공',
+        },
+        {
+          content:
+            '행사 정보 변경 시 API 응답에 빠르게 반영될 수 있도록 데이터 동기화 및 캐시 갱신 흐름 구현',
+        },
+      ],
+    },
+    {
+      title: '개인화 추천 시스템 연동 API 개발',
+      startedAt: '2025-10',
+      endedAt: '2026-03',
+      where: '지마켓(Gmarket)',
+      descriptions: [
+        {
+          content: '개인화 추천 알고리즘 운영에 필요한 메타데이터 생성/수정 API를 설계 및 구현',
+        },
+        {
+          content:
+            'AIDC 추천 결과를 조회하고 프론트엔드 요구사항에 맞게 가공하여 제공하는 API 개발',
+        },
+        {
+          content: '추천 결과 사전 검수를 위한 미리보기 페이지 구현',
         },
       ],
     },
