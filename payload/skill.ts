@@ -1,7 +1,7 @@
 import { ISkill } from '../component/skill/ISkill';
 
-const programmingLanguages: ISkill.Skill = {
-  category: 'Programming Languages',
+const backend: ISkill.Skill = {
+  category: 'Backend',
   items: [
     {
       title: 'Kotlin',
@@ -10,22 +10,13 @@ const programmingLanguages: ISkill.Skill = {
       title: 'Java',
     },
     {
-      title: 'Javascript',
-    },
-  ],
-};
-
-const frameworks: ISkill.Skill = {
-  category: 'Frameworks & Libraries',
-  items: [
-    {
       title: 'Spring Boot',
     },
     {
       title: 'JPA',
     },
     {
-      title: 'coroutine',
+      title: 'Kotlin Coroutines',
     },
     {
       title: 'GraphQL',
@@ -33,8 +24,8 @@ const frameworks: ISkill.Skill = {
   ],
 };
 
-const infrastructure: ISkill.Skill = {
-  category: 'Infrastructure & Databases',
+const dataAndCache: ISkill.Skill = {
+  category: 'Data & Cache',
   items: [
     {
       title: 'Oracle',
@@ -49,16 +40,13 @@ const infrastructure: ISkill.Skill = {
       title: 'InfluxDB',
     },
     {
-      title: 'Kubernetes',
-    },
-    {
       title: 'Redis',
     },
   ],
 };
 
-const tools: ISkill.Skill = {
-  category: 'Skills',
+const platformAndObservability: ISkill.Skill = {
+  category: 'Platform & Observability',
   items: [
     {
       title: 'Jenkins',
@@ -77,7 +65,7 @@ const tools: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [programmingLanguages, frameworks, infrastructure, tools],
+  skills: [backend, dataAndCache, platformAndObservability],
 };
 
 export default skill;

@@ -1,4 +1,4 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
 
 import { IProfile } from '../component/profile/IProfile';
@@ -19,16 +19,11 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
-      icon: faPhone,
-      badge: true,
-    },
-    {
       link: 'https://github.com/woocurlee',
       icon: faGithub,
     },
     {
-      link: 'https://sorious77.tistory.com',
+      link: 'https://woocurlee.medium.com/',
       icon: faMedium,
     },
   ],

@@ -2,8 +2,8 @@ import favicon from '../asset/favicon.ico';
 import previewImage from '../asset/preview.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
-const title = '이정우 Portfolio';
-const description = '4년차 백엔드 개발자';
+const title = '이정우 이력서';
+const description = '5년차 백엔드 개발자';
 
 export const _global: IGlobal.Payload = {
   favicon,
